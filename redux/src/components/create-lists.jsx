@@ -1,5 +1,12 @@
+import "./create-lists.css";
+
 const CreateList = () => {
-    return <div>Create List</div>;
+    return (
+        <div className="create-container">
+            <input />
+            <button>Submit</button>
+        </div>
+    );
 };
 
 export default CreateList;
